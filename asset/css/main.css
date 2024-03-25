@@ -1,0 +1,26 @@
+.red{
+	border: 1px solid red!important;
+}
+
+.green{
+	border: 1px solid green!important;
+}
+
+.yellow{
+	border: 1px solid yellow!important;
+}
+
+.nav{
+	.btn{
+		border-radius: 0 !important;
+		padding: 12px 24px;
+	}
+	.btn:hover{
+		background-color: #cccccc;
+	}
+	.dropdown:hover .dropdown-menu{
+		display: block;
+		position: absolute;
+		left: 0;
+	}
+}
