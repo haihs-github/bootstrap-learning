@@ -1,3 +1,16 @@
+html{
+	/* font-size: 62.5%; */
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin: 0;
+}
+
 .red{
 	border: 1px solid red!important;
 }
@@ -8,6 +21,10 @@
 
 .yellow{
 	border: 1px solid yellow!important;
+}
+
+.w-text{
+	color: #fff;
 }
 
 .nav{
@@ -22,5 +39,48 @@
 		display: block;
 		position: absolute;
 		left: 0;
+	}
+}
+
+.bandAbout{
+	.container{
+		max-width: 800px;
+	}
+	.descreption{
+		text-align: justify;
+	}
+	.band--member img{
+		width: 60%;
+	}
+}
+
+.tourDate{
+	max-width: 800px!important;
+	.ticketsLeft{
+		line-height: 1;
+		margin-right: 10px;
+	}
+}
+
+.contact{
+	.container{
+		max-width: 800px;
+	}
+	.contact__info{
+		i{
+			padding-right: 30px;
+		}
+	}
+	.contact__message{
+		.btn{
+			left: 85%;
+		}
+	}
+}
+
+.footer{
+	max-width: 800px!important;
+	.bq{
+		color: #4f5052;
 	}
 }
